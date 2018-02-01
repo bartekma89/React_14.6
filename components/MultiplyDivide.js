@@ -57,7 +57,7 @@ var MultiplyDivide = React.createClass({
             React.createElement('button', { onClick: this.divideBy3 }, 'Divide By 3'),
             React.createElement('button', { onClick: this.divideBySelf }, 'Divide By Self'),
             React.createElement('button', { onClick: this.reset }, 'Reset'),
-            React.createElement('span', {}, 'Result ' + this.state.result)
+            React.createElement('span', {}, 'Result -> ' + this.state.result)
         )
     }
 })
